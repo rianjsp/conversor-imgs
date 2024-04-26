@@ -24,11 +24,7 @@
 </head>
 
 <body>
-    <!-- Inicio semanticamente melhor-->
     <section>
-        <header>
-
-        </header>
 
         <main>
 
@@ -42,25 +38,64 @@
                     <div class="menu_two">
 
                         <div class="inpt_form">
-                            <label for="inputArq"></label>
-                            <input type="file" name="" id="">
+
+                            <abbr title="Clique para adicionar um arquivo à conversão"><label for="inputArq">Arquivo de
+                                    Entrada</label></abbr>
+                            <input type="file" name="inputArq" id="inputArq" accept=".jpg, .png, .svg, .webp">
                         </div>
+
+                        <div class="out_form">
+
+                            <abbr title="Selecione o formato do arquivo ao lado"></label> <label for="outArq">Arquivo de
+                                    Saida</label></abbr>
+                            <abbr title="Formatos de Arquivos"><select name="outArq" id="outArq"></abbr>
+                            <option selected value="jpg">JPG</option>
+                            <option value="webp">WEBP</option>
+                            <option value="png">PNG</option>
+                            <option value="svg">SVG</option>
+                            </select>
+                        </div>
+
                     </div>
 
                 </div>
             </div>
-            <div class="arrow">
-                <span class="material-symbols-outlined">
-                    arrow_downward
-                </span>
+
+            <div class="container_result">
+                <abbr title="Aqui você converte seus arquivos">
+                    <div class="menu_one">
+                </abbr>
+                <h1>Converter Imagem</h1>
             </div>
-            <div class="container_result">dawdawdw</div>
+
+            <div class="progress_container">
+                <div class="progress_bar" id="progressBar"></div>
+            </div>
+
+
+            <div class="process_bt">
+                <button class="process" id="startProcess" onclick="startProcess()">Converter</button>
+            </div>
+            </div>
 
         </main>
 
         <footer>
 
-
+            <div class="content_footer">
+                <div class="content">
+                    <a href="https://github.com/rianjsp/conversor_imgs"><img src="../imgs/github_icon.png"
+                            alt="Acesse meu GitHub"></a>
+                </div>
+                <div class="content">
+                    <a href="https://www.instagram.com/rian_jsp/"><img src="../imgs/instagram_icon.png"
+                            alt="Acesse meu Instagram"></a>
+                </div>
+                <div class="content">
+                    <a href="https://www.linkedin.com/in/rian-joseph-946506239/"><img src="../imgs/linkedin_icon.png"
+                            alt="Acesse meu LinkedIn"></a>
+                </div>
+            </div>
 
         </footer>
     </section>

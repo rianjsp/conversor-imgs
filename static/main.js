@@ -8,14 +8,16 @@ function progressBar() {
                 clearInterval(interval)
             } else { 
                 width++;
-                progressBar.style.width = width + '%';  
+                progressBar.style.width = width + '%';
+                
+                
             }
     }
     
 }
 
 function startProcess() { 
-    progressBar()
+    
      
     const file_ipt = document.getElementById('inputArq');
     const out_ipt = document.getElementById('outArq').value;
@@ -32,6 +34,7 @@ function startProcess() {
         return; // Saia da função se não for uma imagem
     }
     
+    progressBar()
     const reader = new FileReader();
     reader.onload = (e) => { 
         const img = new Image();
