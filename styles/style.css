@@ -61,7 +61,7 @@ main{
 .container_converter{
   border-radius: 30px;
   width: 500px;
-  height: 500px;
+  height: 350px;
   background-color: var(--cor-tres);
   box-shadow: 8px 8px 1px var(--cor-um);
 }
@@ -71,6 +71,7 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  
 }
 
 .menu_one{
@@ -92,36 +93,64 @@ main{
 }
 
 /* Inputs */
-.input-file {
+.inpt_form {
       overflow: hidden;
-      position: relative;
-    }
-
-    .input-file input[type="file"] {
-      font-size: 100px;
-      position: absolute;
-      left: 0;
-      top: 0;
-      opacity: 0;
-    }
-
-    .input-file label {
-      display: block;
-      padding: 10px;
-      background-color: #ccc;
-      color: #333;
-      border: 1px solid #666;
-      border-radius: 5px;
+      width: 400px;
       cursor: pointer;
     }
 
-    .input-file label:hover {
+    .inpt_form input[type="file"] {
+      opacity: 0;
+      
+    }
+
+    .inpt_form label {
+      padding: 10px;
+      background-color: #ffffff;
+      color: #1b1b1b;
+      border: 1px solid #666;
+      border-radius: 120px;
+      cursor: pointer;
+    }
+
+    .inpt_form label:hover {
       background-color: #ddd;
     }
 
-    .input-file label::after {
-      content: 'Escolher arquivo';
+    .inpt_form label::after {
+      content: url(../imgs/engine_icon.png);
+      vertical-align: middle;
+      margin: 0px 10px;
     }
+
+
+.out_form{
+      width: 400px;
+      margin: 40px 0px;
+      cursor: pointer;
+}
+
+.out_form label{
+      padding: 10px;
+      background-color: #ffffff;
+      color: #1b1b1b;
+      border: 1px solid #666;
+      border-radius: 120px;
+      cursor: pointer;
+}
+
+.out_form label:hover{
+  background-color: #ddd;
+}
+
+.out_form select{
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  
+}
 
 .container_result{
   border-radius: 30px;
