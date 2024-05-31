@@ -25,13 +25,13 @@ function startProcess() {
 
     if (!file) { 
         alert('Por favor, selecione uma imagem para realizar a conversão!');
-        return; // Saia da função se nenhum arquivo foi selecionado
+        return; // Sái da função se nenhum arquivo foi selecionado
     }
 
-    // Verifique se o arquivo é uma imagem
+    // Verifica se o arquivo é uma imagem
     if (!file.type.startsWith('image/')) {
         alert('Por favor, selecione um arquivo de imagem válido!');
-        return; // Saia da função se não for uma imagem
+        return; // Sái da função se não for uma imagem
     }
     
     progressBar()
@@ -43,14 +43,14 @@ function startProcess() {
             const ctx = canvas.getContext('2d');
             canvas.width = img.width; // Defina a largura do canvas
             canvas.height = img.height; // Defina a altura do canvas
-            ctx.drawImage(img, 0, 0, img.width, img.height); // Inclua a largura e a altura do desenho
+            ctx.drawImage(img, 0, 0, img.width, img.height); // Inclui a largura e a altura do desenho
 
             const convertedImg = canvas.toDataURL(`image/${out_ipt}`);
 
             const d_link = document.createElement('a');
             d_link.className = `linkOut`
             d_link.href = convertedImg;
-            // Defina a extensão do arquivo de saída com base no tipo de imagem selecionada
+            // Define a extensão do arquivo de saida com base no tipo de imagem selecionada
             d_link.download = `imagem_convertida.${out_ipt}`; 
             d_link.click();
         }
