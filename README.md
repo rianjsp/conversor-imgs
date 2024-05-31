@@ -1,5 +1,3 @@
-👋 Olá, Meu nome e Rian joseph Ramos Felizardo, curso Desenvolvimento de Sistemas FullStack pela Faculdade Estácio de Sá
-
 👀 Neste pequeno repositório irei demonstrar como e fácil criar um conversor de imagens com as tecs básicas do nosso dia a dia de dev.
 
 
