@@ -4,11 +4,10 @@
 - Feito para descontração e uso em trabalhos
 
 
-📫 Me encontre em... 
-• bigriann18@gmail.com 
-• https://www.linkedin.com/in/rian-joseph-946506239/
-• https://www.instagram.com/rjsp_1/
+## Me encontre em... 
+- bigriann18@gmail.com 
+- https://www.linkedin.com/in/rian-joseph-946506239/
+- https://www.instagram.com/rjsp_1/
 
 - Minha Loja de Hardwares:
-
-• https://linktr.ee/josph
+  - https://linktr.ee/josph
